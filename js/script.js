@@ -24,7 +24,13 @@ let resultat = '';
     `Joueur : ${joueur}<br>
     Robot : ${robot}<br>
     ${resultat} !!!`;
-        
-    //console.log(joueur, robot);
-  });
-}
+    
+   let resetButton = document.querySelector('.reset');
+   let scoreJoueur = document.querySelector('.scoreJoueur');
+   let scoreRobot = document.querySelector('.scorePC');
+    
+  resetButton.addEventListener('click', () =>{
+    scoreJoueur.textContent = 0;
+    scoreRobot.textContent = 0;
+    
+  }
