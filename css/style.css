@@ -1,3 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #333;
+    background: #f5f5f5;
+}
 .puit{
     color: transparent;
     background-color: transparent;
@@ -5,5 +20,20 @@
     outline: none;
 }
 button{
+    
     cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+    width: 100px;
+    height: auto;
+}
+.resultat{
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #34d5eb;
+    color: white;
 }
