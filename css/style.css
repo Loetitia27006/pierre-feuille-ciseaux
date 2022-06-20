@@ -17,12 +17,34 @@ body{
     outline: none;
 }
 button{
-    
     cursor: pointer;
     background-color: blueviolet;
+    margin: 10px;
     color: white;
     width: 150px;
-    height: 50px;
+    height: 60px;
+}
+i{
+    font-size: 30px;
+    padding: 20px;
+}
+.reset{
+    background-color: #004aad;
+    color: white;
+    width: 150px;
+    height: 60px;
+}
+.score{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    height: 100px;
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    border: 1px solid #004aad;
 }
 .resultat{
     width: 200px;

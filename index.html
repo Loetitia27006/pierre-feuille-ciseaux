@@ -6,24 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pierre Feuille Ciseaux</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div class="button">
-        <button>pierre</button>
-        <button>feuille</button>
-        <button>ciseaux</button>
+        <button><i class="fa-solid fa-hand-back-fist"></i>pierre</button>
+        <button><i class="fa-solid fa-hand"></i>feuille</button>
+        <button><i class="fa-solid fa-hand-scissors"></i>ciseaux</button>
         <button class="puit">puit</button>
     </div>
     <div class="resultat"></div>
     <div class="score">
-        <p>Vous</p>
-        <p>Ordinateur</p>
+        <p>Vous :</p>
         <p class="scoreJoueur">0</p>
+        <p>Ordinateur :</p>
         <p class="scorePC">0</p>
-        <div class="reset">Recommencer</div>
     </div>
+        <button class="reset">Recommencer</button>
+    
 
     <script src="js/script.js"></script>
 </body>
